@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title of the document</title>
+    <!-- Material Icon CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Materialize CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="cyan">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo"
+              >Calorie and Macronutrient Calculator</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <p class="flow-text">
+        This app calculates total calories based on macronutrient targets.
+        Please enter protein, carbohydrates, and fat in grams.
+      </p>
+      <table class="responsive-table">
+        <thead>
+          <tr>
+            <th data-field="Protein">
+              <a
+                class="btn-floating btn-large waves-effect waves-light protein-down"
+                ><i class="large material-icons">arrow_downward</i></a
+              >
+              <div class="macro protein-count">Protein</div>
+
+              <a
+                class="btn-floating btn-large waves-effect waves-light protein-up"
+                ><i class="large material-icons">arrow_upward</i></a
+              >
+            </th>
+            <th data-field="Carbohydrates">
+              <a
+                class="btn-floating btn-large waves-effect waves-light carbs-down"
+                ><i class="large material-icons">arrow_downward</i></a
+              >
+              <div class="macro carb-count">Carbs</div>
+
+              <a
+                class="btn-floating btn-large waves-effect waves-light carbs-up"
+                ><i class="large material-icons">arrow_upward</i></a
+              >
+            </th>
+            <th data-field="Fat">
+              <a
+                class="btn-floating btn-large waves-effect waves-light fat-down"
+                ><i class="large material-icons">arrow_downward</i></a
+              >
+              <div class="macro fat-count">Fat</div>
+
+              <a class="btn-floating btn-large waves-effect waves-light fat-up"
+                ><i class="large material-icons">arrow_upward</i></a
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="grams" id="protein-grams">0</div>
+            </td>
+            <td>
+              <div class="grams" id="carbs-grams">0</div>
+            </td>
+            <td>
+              <div class="grams" id="fat-grams">0</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer class="page-footer cyan">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4 l6">
+            <h5 class="white-text">Calculated Total Calories</h5>
+            <label class="target-calories">0</label>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 Jan Balangue
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

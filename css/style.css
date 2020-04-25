@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+tr {
+  text-align: center;
+}
+.brand-logo {
+  text-align: center;
+}
+.macro {
+  font-size: 24px;
+  margin: 0 10%;
+  display: inline;
+}
+protein-down:hover,
+carbs-down:hover,
+fat-down:hover {
+}
+.grams {
+  font-size: 36px;
+  color: black;
+  padding: 0 19.5%;
+}
+.target-calories {
+  font-size: 36px;
+  color: white;
+}
