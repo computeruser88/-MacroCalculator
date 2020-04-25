@@ -38,52 +38,51 @@
         <thead>
           <tr>
             <th data-field="Protein">
-              <a
-                class="btn-floating btn-medium waves-effect waves-light protein-down"
-                ><i class="large material-icons">arrow_downward</i></a
-              >
-              <div class="macro protein-count">Protein</div>
-
-              <a
-                class="btn-floating btn-medium waves-effect waves-light protein-up"
-                ><i class="large material-icons">arrow_upward</i></a
-              >
+              Protein
             </th>
             <th data-field="Carbohydrates">
-              <a
-                class="btn-floating btn-medium waves-effect waves-light carbs-down"
-                ><i class="large material-icons">arrow_downward</i></a
-              >
-              <div class="macro carb-count">Carbs</div>
-
-              <a
-                class="btn-floating btn-medium waves-effect waves-light carbs-up"
-                ><i class="large material-icons">arrow_upward</i></a
-              >
+              Carbs
             </th>
             <th data-field="Fat">
-              <a
-                class="btn-floating btn-medium waves-effect waves-light fat-down"
-                ><i class="large material-icons">arrow_downward</i></a
-              >
-              <div class="macro fat-count">Fat</div>
-
-              <a class="btn-floating btn-medium waves-effect waves-light fat-up"
-                ><i class="large material-icons">arrow_upward</i></a
-              >
+              Fat
             </th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>
+              <a
+                class="btn-floating btn-medium waves-effect waves-light protein-up"
+                ><i class="large material-icons">arrow_upward</i></a
+              >
               <div class="grams" id="protein-grams"></div>
+
+              <a
+                class="btn-floating btn-medium waves-effect waves-light protein-down"
+                ><i class="large material-icons">arrow_downward</i></a
+              >
             </td>
             <td>
+              <a
+                class="btn-floating btn-medium waves-effect waves-light carbs-up"
+                ><i class="large material-icons">arrow_upward</i></a
+              >
+
               <div class="grams" id="carbs-grams"></div>
+              <a
+                class="btn-floating btn-medium waves-effect waves-light carbs-down"
+                ><i class="large material-icons">arrow_downward</i></a
+              >
             </td>
             <td>
+              <a class="btn-floating btn-medium waves-effect waves-light fat-up"
+                ><i class="large material-icons">arrow_upward</i></a
+              >
               <div class="grams" id="fat-grams"></div>
+              <a
+                class="btn-floating btn-medium waves-effect waves-light fat-down"
+                ><i class="large material-icons">arrow_downward</i></a
+              >
             </td>
           </tr>
         </tbody>
@@ -91,16 +90,10 @@
     </main>
     <footer class="page-footer cyan">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <span>
-              <h5 class="white-text">
-                Total Calories:
-              </h5>
-              <label class="target-calories"></label>
-            </span>
-          </div>
-        </div>
+        <h5 class="white-text">
+          Total Calories:
+        </h5>
+        <span class="target-calories"></span>
       </div>
     </footer>
     <!-- jQuery CDN -->
