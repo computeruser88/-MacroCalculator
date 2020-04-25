@@ -9,22 +9,27 @@ main {
 tr {
   text-align: center;
 }
-.brand-logo {
-  text-align: left;
+.container {
+  font-size: 32px;
+  padding: 0px;
+  margin-left: 20px;
+}
+.flow-text {
+  margin: 20px;
+}
+.responsive-table {
+  margin: 20px;
 }
 .macro {
   font-size: 24px;
   margin: 0 10%;
   display: inline;
 }
-protein-down:hover,
-carbs-down:hover,
-fat-down:hover {
-}
+
 .grams {
   font-size: 36px;
   color: black;
-  padding: 0 19.5%;
+  padding: 0 17%;
 }
 .target-calories {
   font-size: 36px;
